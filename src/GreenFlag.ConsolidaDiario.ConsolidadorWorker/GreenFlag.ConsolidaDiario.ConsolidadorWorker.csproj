@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-GreenFlag.ConsolidaDiario.ConsolidadorWorker-d3a1a065-a632-4743-8c3b-04b95d1ded84</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Confluent.Kafka" Version="2.11.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.1" />
+    <PackageReference Include="MongoDB.Driver" Version="3.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GreenFlag.ConsolidaDiario.Core\GreenFlag.ConsolidaDiario.Core.csproj" />
+    <ProjectReference Include="..\GreenFlag.ConsolidaDiario.Data\GreenFlag.ConsolidaDiario.Data.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenFlag.Financeiro.Api", "GreenFlag.FluxoCaixa\GreenFlag.Financeiro.Api.csproj", "{8D76FE66-AF39-4B2E-A56F-53D46E03E09B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenFlag.ConsolidaDiario.Api", "GreenFlag.Consolidacao\GreenFlag.ConsolidaDiario.Api.csproj", "{A8F2EC71-DCC6-4296-A498-63DA4E646CFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenFlag.FluxoCaixa.Tests", "GreenFlag.FluxoCaixa.Tests\GreenFlag.FluxoCaixa.Tests.csproj", "{383284D0-1D3B-40D7-87F9-968241321917}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenFlag.ConsolidaDiario.RegistroWorker", "GreenFlag.Consolidacao.Worker\GreenFlag.ConsolidaDiario.RegistroWorker.csproj", "{392A8C5C-EB9B-43FD-A67D-9C2E574564CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Consolidacao", "Consolidacao", "{FB610711-132F-40F3-861D-64BC81AD39D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenFlag.ConsolidaDiario.Scheduler", "GreenFlag.ConsolidaDiario.Consolidador\GreenFlag.ConsolidaDiario.Scheduler.csproj", "{3713E6D9-7BA9-4F70-8876-5E4F7D315845}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenFlag.ConsolidaDiario.Core", "GreenFlag.ConsolidaDiario.Core\GreenFlag.ConsolidaDiario.Core.csproj", "{48539991-3751-4FF6-A947-D0F42E206BA6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6295F68C-66CD-48CA-B6C8-A08D5336224A} = {6295F68C-66CD-48CA-B6C8-A08D5336224A}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenFlag.ConsolidaDiario.ConsolidadorWorker", "GreenFlag.ConsolidaDiario.ConsolidadorWorker\GreenFlag.ConsolidaDiario.ConsolidadorWorker.csproj", "{ED063AAC-9739-4F13-97A7-42EE9833D52F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenFlag.ConsolidaDiario.Data", "GreenFlag.ConsolidaDiario.Data\GreenFlag.ConsolidaDiario.Data.csproj", "{6295F68C-66CD-48CA-B6C8-A08D5336224A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lancamentos", "Lancamentos", "{A7DF8B8B-0E6F-4640-8786-64CA184239CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenFlag.Commons", "GreenFlag.Commons\GreenFlag.Commons.csproj", "{CC972F6D-A814-4959-9991-6C02BAE40710}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D76FE66-AF39-4B2E-A56F-53D46E03E09B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D76FE66-AF39-4B2E-A56F-53D46E03E09B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D76FE66-AF39-4B2E-A56F-53D46E03E09B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D76FE66-AF39-4B2E-A56F-53D46E03E09B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8F2EC71-DCC6-4296-A498-63DA4E646CFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8F2EC71-DCC6-4296-A498-63DA4E646CFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8F2EC71-DCC6-4296-A498-63DA4E646CFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8F2EC71-DCC6-4296-A498-63DA4E646CFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{383284D0-1D3B-40D7-87F9-968241321917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{383284D0-1D3B-40D7-87F9-968241321917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{383284D0-1D3B-40D7-87F9-968241321917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{383284D0-1D3B-40D7-87F9-968241321917}.Release|Any CPU.Build.0 = Release|Any CPU
+		{392A8C5C-EB9B-43FD-A67D-9C2E574564CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{392A8C5C-EB9B-43FD-A67D-9C2E574564CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{392A8C5C-EB9B-43FD-A67D-9C2E574564CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{392A8C5C-EB9B-43FD-A67D-9C2E574564CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3713E6D9-7BA9-4F70-8876-5E4F7D315845}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3713E6D9-7BA9-4F70-8876-5E4F7D315845}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3713E6D9-7BA9-4F70-8876-5E4F7D315845}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3713E6D9-7BA9-4F70-8876-5E4F7D315845}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48539991-3751-4FF6-A947-D0F42E206BA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48539991-3751-4FF6-A947-D0F42E206BA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48539991-3751-4FF6-A947-D0F42E206BA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48539991-3751-4FF6-A947-D0F42E206BA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED063AAC-9739-4F13-97A7-42EE9833D52F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED063AAC-9739-4F13-97A7-42EE9833D52F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED063AAC-9739-4F13-97A7-42EE9833D52F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED063AAC-9739-4F13-97A7-42EE9833D52F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6295F68C-66CD-48CA-B6C8-A08D5336224A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6295F68C-66CD-48CA-B6C8-A08D5336224A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6295F68C-66CD-48CA-B6C8-A08D5336224A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6295F68C-66CD-48CA-B6C8-A08D5336224A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC972F6D-A814-4959-9991-6C02BAE40710}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC972F6D-A814-4959-9991-6C02BAE40710}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC972F6D-A814-4959-9991-6C02BAE40710}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC972F6D-A814-4959-9991-6C02BAE40710}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8D76FE66-AF39-4B2E-A56F-53D46E03E09B} = {A7DF8B8B-0E6F-4640-8786-64CA184239CD}
+		{A8F2EC71-DCC6-4296-A498-63DA4E646CFD} = {FB610711-132F-40F3-861D-64BC81AD39D8}
+		{392A8C5C-EB9B-43FD-A67D-9C2E574564CB} = {FB610711-132F-40F3-861D-64BC81AD39D8}
+		{3713E6D9-7BA9-4F70-8876-5E4F7D315845} = {FB610711-132F-40F3-861D-64BC81AD39D8}
+		{48539991-3751-4FF6-A947-D0F42E206BA6} = {FB610711-132F-40F3-861D-64BC81AD39D8}
+		{ED063AAC-9739-4F13-97A7-42EE9833D52F} = {FB610711-132F-40F3-861D-64BC81AD39D8}
+		{6295F68C-66CD-48CA-B6C8-A08D5336224A} = {FB610711-132F-40F3-861D-64BC81AD39D8}
+	EndGlobalSection
+EndGlobal

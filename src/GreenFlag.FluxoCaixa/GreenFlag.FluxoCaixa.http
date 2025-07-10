@@ -1,0 +1,6 @@
+@GreenFlag.FluxoCaixa_HostAddress = http://localhost:5023
+
+GET {{GreenFlag.FluxoCaixa_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
